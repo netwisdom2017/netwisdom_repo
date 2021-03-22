@@ -77,6 +77,7 @@ public class UserInfoApi {
             	return new ResponseBean(ConstInfo.ERROR, "パスワードは6-16桁を入力してください", null, null);
     		}
             System.out.println(123);
+            System.out.println(123);
             //ユーザー新規登録処理(メール)を行います　START
             userInfo.setMailAddress(mailAddress);
             //パスワード暗号化処理 START
